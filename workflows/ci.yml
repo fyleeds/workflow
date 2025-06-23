@@ -1,0 +1,9 @@
+# Le fichier YAML est à compléter
+on: push
+name: CI Workflow
+steps:
+  - run: npm install
+  - run: npm test
+  - run: npm run lint
+  - run: mkdir dist && echo "Build successful" > dist/build.txt
+  - run: echo "CI Workflow completed successfully"
