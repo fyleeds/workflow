@@ -1,6 +1,9 @@
 # s'exécute a chaque push
 on:
-  [push,workflow_dispatch] :
+  push :
+    branches-ignore:
+    - 'feature/*'
+  workflow_dispatch :
     branches-ignore:
     - 'feature/*'
 name: CI Workflow
