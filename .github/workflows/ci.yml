@@ -5,7 +5,8 @@ jobs :
   build :
     runs-on: ubuntu-latest
     steps:
-      - run : cd
+      - name: My first step - check out repository
+        uses: actions/checkout@v4
       - run: npm install
       - run: npm test
       - run: npm run lint
