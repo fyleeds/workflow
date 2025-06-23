@@ -1,10 +1,10 @@
 # s'exécute a chaque push
 on: [push,workflow_dispatch]
-branches-ignore:
-- 'feature/*'
 name: CI Workflow
 jobs:
   build:
+    branches-ignore:
+      - 'feature/*'
     runs-on: ubuntu-latest
     steps:
       - name: Se déplacer à la racine du repository (v4)
