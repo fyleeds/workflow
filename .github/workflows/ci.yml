@@ -27,6 +27,6 @@ jobs:
       - name: Se déplacer à la racine du repository (v4)
         uses: actions/checkout@v4
       - name: Installer les dépendances npm
-        run: npm install
+        run: npm install eslint
       - name: Vérifier la syntaxe avec ESLint
         run: npm run lint
