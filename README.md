@@ -1,6 +1,9 @@
 
 # Atelier GitHub Actions : CI avec Node.js
 
+## Status
+[![.github/workflows/ci.yml](https://github.com/fyleeds/workflow/actions/workflows/ci.yml/badge.svg)](https://github.com/fyleeds/workflow/actions/workflows/ci.yml)
+
 ## 🎯 Objectif
 Découvrir GitHub Actions à travers un projet Node.js simple. À chaque `push`, on souhaite :
 1. Installer les dépendances
