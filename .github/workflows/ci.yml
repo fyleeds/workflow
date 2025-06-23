@@ -1,5 +1,5 @@
 # s'exécute a chaque push
-on: push
+on: [push,workflow_dispatch]
 name: CI Workflow
 jobs:
   build:
